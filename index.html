@@ -481,6 +481,35 @@ We’re happy to have you with us. Thank you for trusting Avtech for your needs.
   <button data-panel="reports">Report Cards</button>  
   <button onclick="logout()" class="logout-btn">
   Logout
+      <button class="scheme-btn" onclick="openSchemes()">
+   📚 Schemes / Notes
+</button>
+
+<style>
+.scheme-btn{
+    background:#0d6efd;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.scheme-btn:hover{
+    background:#084298;
+}
+</style>
+
+<script>
+function openSchemes(){
+   window.open(
+      "https://script.google.com/macros/s/AKfycbz4wPDkRfr2S2MNDgyCgIYW_hjgzDYI7Db8Ry_svkwhmWTo93Gqxxp1WXPmkjCbCawd/exec",
+      "_blank"
+   );
+}
+</script>
 </button>
   <!-- PAYSTACK BUTTON HERE -->  
   <button onclick="goPaystack()" class="primary-btn">  
